@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operation Homefront Priorities | Operations Manual</title>
+    <title>Homefront Priorities | Volunteer Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script>
@@ -40,28 +40,28 @@
 <body class="text-gray-800 antialiased flex flex-col md:flex-row h-screen overflow-hidden">
 
     <div class="md:hidden bg-navy-900 text-white p-4 flex justify-between items-center shadow-md z-20">
-        <div class="font-bold text-xl flex items-center"><i class="fas fa-flag-usa mr-2 text-red-400"></i> Homefront Hub</div>
+        <div class="font-bold text-xl flex items-center"><i class="fas fa-users mr-2 text-blue-300"></i> Homefront Hub</div>
         <button onclick="toggleMobileMenu()" class="focus:outline-none"><i class="fas fa-bars text-2xl"></i></button>
     </div>
 
     <nav id="sidebar" class="bg-navy-900 w-full md:w-64 h-full flex-shrink-0 absolute md:relative z-10 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out shadow-xl flex flex-col">
         <div class="hidden md:flex p-6 items-center border-b border-blue-800">
-            <i class="fas fa-flag-usa mr-3 text-red-400 text-2xl"></i>
+            <i class="fas fa-users mr-3 text-blue-300 text-2xl"></i>
             <div>
-                <h1 class="text-white font-bold text-lg leading-tight uppercase tracking-wider font-headline">Operation</h1>
+                <h1 class="text-white font-bold text-lg leading-tight uppercase tracking-wider font-headline">Campaign</h1>
                 <h2 class="text-blue-200 font-semibold text-sm">Homefront Priorities</h2>
             </div>
         </div>
         <div class="flex-1 overflow-y-auto py-4">
             <ul class="space-y-1">
-                <li><button onclick="switchTab('mission')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn active-nav"><i class="fas fa-book-open w-5 mr-2"></i> Operations Manual</button></li>
+                <li><button onclick="switchTab('mission')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn active-nav"><i class="fas fa-book-open w-5 mr-2"></i> Volunteer Guide</button></li>
                 <li><button onclick="switchTab('graphics')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn"><i class="fas fa-image w-5 mr-2"></i> Graphics (10)</button></li>
                 <li><button onclick="switchTab('social')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn"><i class="fas fa-share-nodes w-5 mr-2"></i> Social Posts (10)</button></li>
                 <li><button onclick="switchTab('lte')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn"><i class="fas fa-newspaper w-5 mr-2"></i> News LTEs (5)</button></li>
-                <li><button onclick="switchTab('birddog')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn"><i class="fas fa-video w-5 mr-2"></i> Field Q&A (6)</button></li>
+                <li><button onclick="switchTab('eventqa')" class="w-full text-left px-6 py-3 text-gray-300 hover:bg-blue-800 hover:text-white transition nav-btn"><i class="fas fa-video w-5 mr-2"></i> Event Q&A (6)</button></li>
             </ul>
         </div>
-        <div class="p-4 border-t border-blue-800"><p class="text-xs text-blue-300 text-center uppercase tracking-widest">Authorized Personnel Only</p></div>
+        <div class="p-4 border-t border-blue-800"><p class="text-xs text-blue-300 text-center uppercase tracking-widest">Community Toolkit</p></div>
     </nav>
 
     <main class="flex-1 overflow-y-auto bg-slate-100 p-4 md:p-8 w-full">
@@ -69,45 +69,45 @@
         <div id="mission" class="tab-content active max-w-5xl mx-auto">
             <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                 
-                <div class="bg-navy-900 p-8 text-white border-b-4 border-red-500 relative overflow-hidden">
-                    <i class="fas fa-shield-alt absolute -right-10 -bottom-10 text-9xl text-white opacity-5"></i>
-                    <h3 class="text-red-400 font-bold uppercase tracking-widest text-sm mb-2">Campaign Operations Manual</h3>
-                    <h2 class="font-headline text-4xl md:text-5xl font-bold mb-2 uppercase tracking-wide leading-tight">Operation Homefront Priorities</h2>
-                    <p class="text-blue-200 text-lg max-w-2xl">A targeted, zero-to-low-cost tactical intervention to hold Congressman Derrick Van Orden accountable in WI-03.</p>
+                <div class="bg-navy-900 p-8 text-white border-b-4 border-blue-400 relative overflow-hidden">
+                    <i class="fas fa-handshake absolute -right-10 -bottom-10 text-9xl text-white opacity-5"></i>
+                    <h3 class="text-blue-300 font-bold uppercase tracking-widest text-sm mb-2">Community Action Guide</h3>
+                    <h2 class="font-headline text-4xl md:text-5xl font-bold mb-2 uppercase tracking-wide leading-tight">Homefront Priorities</h2>
+                    <p class="text-blue-100 text-lg max-w-2xl">A community-driven, grassroots effort to hold Congressman Derrick Van Orden accountable in WI-03.</p>
                 </div>
 
                 <div class="p-6 md:p-10 border-b border-gray-100">
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">1</span> Strategic Overview and Mission Mandate</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">1</span> Campaign Overview and Our Goal</h3>
                     <p class="text-gray-700 mb-4 leading-relaxed">
-                        Operation Homefront Priorities is a targeted, zero-to-low-cost tactical intervention designed to hold Congressman Derrick Van Orden accountable within Wisconsin’s 3rd District. Our mission is to execute a strategic pivot from digital mobilization to physical, real-world accountability. This transition is essential to move the needle with swing voters, working families, and veterans who feel abandoned by a legislative focus on $200 billion in foreign war expenditures while local economic stability erodes.
+                        The Homefront Priorities project is a grassroots effort designed to hold Congressman Derrick Van Orden accountable within Wisconsin’s 3rd District. Our goal is to build an inclusive coalition and turn our online conversations into real-world community action. This shift is essential to connect with swing voters, working families, and veterans who feel left behind by a legislative focus on $200 billion in foreign war spending while local economic stability erodes.
                     </p>
                     
-                    <div class="bg-red-50 border-l-4 border-red-600 p-6 my-6 rounded-r">
-                        <p class="text-red-900 font-bold uppercase text-xs tracking-widest mb-1">Central Guiding Narrative</p>
-                        <p class="text-xl font-bold text-red-800 italic">"Wisconsin Families First. Not Foreign Wars."</p>
-                        <p class="text-red-800 mt-2 text-sm">This message serves as the lens through which we frame every grievance, from gas prices to VA care.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 my-6 rounded-r">
+                        <p class="text-blue-900 font-bold uppercase text-xs tracking-widest mb-1">Our Core Message</p>
+                        <p class="text-xl font-bold text-blue-800 italic">"Wisconsin Families First. Not Foreign Wars."</p>
+                        <p class="text-blue-800 mt-2 text-sm">This message guides our community outreach, helping us connect local issues like gas prices and VA care back to legislative choices.</p>
                     </div>
 
-                    <h4 class="font-bold text-gray-800 mb-3 uppercase tracking-wide text-sm">Priority Targets and Geographies</h4>
+                    <h4 class="font-bold text-gray-800 mb-3 uppercase tracking-wide text-sm">Key Audiences and Geographies</h4>
                     <div class="table-container overflow-x-auto rounded-lg border border-gray-200 shadow-sm mb-6">
                         <table class="min-w-full divide-y divide-gray-200 text-sm">
                             <thead class="bg-gray-50">
                                 <tr>
-                                    <th scope="col" class="px-6 py-3 text-left font-bold text-gray-600 uppercase tracking-wider w-1/3">Target Demographic</th>
+                                    <th scope="col" class="px-6 py-3 text-left font-bold text-gray-600 uppercase tracking-wider w-1/3">Audience Focus</th>
                                     <th scope="col" class="px-6 py-3 text-left font-bold text-gray-600 uppercase tracking-wider w-1/3">Primary Geographic Focus</th>
-                                    <th scope="col" class="px-6 py-3 text-left font-bold text-gray-600 uppercase tracking-wider">Key Local Grievances</th>
+                                    <th scope="col" class="px-6 py-3 text-left font-bold text-gray-600 uppercase tracking-wider">Key Local Concerns</th>
                                 </tr>
                             </thead>
                             <tbody class="bg-white divide-y divide-gray-200">
                                 <tr>
                                     <td class="px-6 py-4 font-semibold text-brand-700">Swing Voters</td>
                                     <td class="px-6 py-4 text-gray-700">Eau Claire, La Crosse</td>
-                                    <td class="px-6 py-4 text-gray-700">Inflation, lack of transparency, government waste.</td>
+                                    <td class="px-6 py-4 text-gray-700">Inflation, transparency, responsible spending.</td>
                                 </tr>
                                 <tr class="bg-gray-50">
                                     <td class="px-6 py-4 font-semibold text-brand-700">Working Families</td>
                                     <td class="px-6 py-4 text-gray-700">River Falls, Stevens Point</td>
-                                    <td class="px-6 py-4 text-gray-700">Childcare crisis, gas prices, rural hospital closures.</td>
+                                    <td class="px-6 py-4 text-gray-700">Childcare availability, gas prices, rural hospital support.</td>
                                 </tr>
                                 <tr>
                                     <td class="px-6 py-4 font-semibold text-brand-700">Veterans</td>
@@ -117,126 +117,126 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="text-gray-600 text-sm italic">This manual dictates a four-phase cumulative strategy. Phase 1 through Phase 3 represent the "softening" of the target before we transition to the "kinetic" impact of Phase 4.</p>
+                    <p class="text-gray-600 text-sm italic">This guide outlines a four-step collaborative plan. Steps 1 through 3 focus on building awareness and laying the groundwork before we transition to direct community engagement in Step 4.</p>
                 </div>
 
                 <div class="bg-slate-50 p-6 md:p-10 border-b border-gray-200">
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">2</span> Phase 1: Foundational Infrastructure</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">2</span> Step 1: Building Our Community Hubs</h3>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        To successfully grow this movement, we need to create a welcoming and organized space for our neighbors to plug in. We are running a grassroots, community-powered effort—which means our greatest asset is people, not massive corporate ad budgets. We’ll get everything set up behind the scenes before we officially launch.
+                        To successfully grow this movement, we need to create a welcoming and organized space for our neighbors to plug in. We are running a grassroots, community-powered effort—which means our greatest asset is people. We’ll get our shared spaces set up so everyone has what they need to contribute.
                     </p>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                         <div class="bg-white p-5 rounded border border-gray-300 shadow-sm">
-                            <h4 class="font-bold text-brand-700 mb-2 tracking-wide text-sm border-b pb-1"><i class="fas fa-home mr-2"></i>Our Team Hubs</h4>
+                            <h4 class="font-bold text-brand-700 mb-2 tracking-wide text-sm border-b pb-1"><i class="fas fa-home mr-2"></i>Our Team Organization</h4>
                             <p class="text-sm text-gray-700 mb-2">We want to make volunteering as easy as possible. We’ll use free, familiar tools to stay connected:</p>
                             <ul class="space-y-2 text-sm text-gray-700">
-                                <li><strong>The Community Forum:</strong> We’ll set up a friendly space (like a private Facebook Group or Slack channel) where volunteers can chat, share ideas, and find their weekly tasks.</li>
-                                <li><strong>The Shared Toolkit:</strong> All of our graphics, scripts, and resources will be kept in a shared Google Drive so anyone can grab what they need, exactly when they need it.</li>
+                                <li><strong>The Community Forum:</strong> We’ll set up a friendly space (like a private Facebook Group or Slack channel) where volunteers can chat, share ideas, and find activities.</li>
+                                <li><strong>The Shared Toolkit:</strong> All of our graphics, scripts, and resources will be kept in a shared Google Drive so anyone can easily find what they need.</li>
                             </ul>
                         </div>
                         <div class="bg-white p-5 rounded border border-gray-300 shadow-sm">
-                            <h4 class="font-bold text-brand-700 mb-2 tracking-wide text-sm border-b pb-1"><i class="fas fa-handshake mr-2"></i>Growing the Movement</h4>
-                            <p class="text-xs text-gray-500 mb-2 italic">When talking to neighbors, focus on shared economic concerns (like gas prices and healthcare) rather than partisan politics.</p>
+                            <h4 class="font-bold text-brand-700 mb-2 tracking-wide text-sm border-b pb-1"><i class="fas fa-handshake mr-2"></i>Volunteer Outreach</h4>
+                            <p class="text-xs text-gray-500 mb-2 italic">When talking to neighbors, focus on shared economic concerns (like gas prices and healthcare) to find common ground.</p>
                             <ul class="space-y-2 text-sm text-gray-700">
                                 <li><strong>Reach Out:</strong> Share our "Are You Feeling This Too?" message with friends, family, and neighbors on platforms like Nextdoor.</li>
-                                <li><strong>Join the Conversation:</strong> Post our welcoming pitch in local WI-03 community groups to invite others to help out.</li>
+                                <li><strong>Join the Conversation:</strong> Post our welcoming introduction in local WI-03 community groups to invite others to help out.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-6 md:p-10 border-b border-gray-100">
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">3</span> Phase 2: Content & Asset Prep</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">3</span> Step 2: Preparing Our Resources</h3>
                     <p class="text-gray-700 mb-4 leading-relaxed">
-                        We cut through national noise by utilizing visual "receipts"—irrefutable data points that ground national spending in local loss. All assets are to be stored in the Digital Toolkit.
+                        We aim to provide clear, factual context by using visual "receipts"—data points that connect national spending to our local needs. All materials are stored in our shared Digital Toolkit.
                     </p>
 
-                    <h4 class="font-bold text-gray-800 mb-3 uppercase tracking-wide text-sm mt-6">Digital Toolkit: Static Graphic Assets</h4>
+                    <h4 class="font-bold text-gray-800 mb-3 uppercase tracking-wide text-sm mt-6">Graphic Assets</h4>
                     <div class="table-container overflow-x-auto rounded-lg border border-gray-200 shadow-sm mb-6">
                         <table class="min-w-full divide-y divide-gray-200 text-sm">
                             <thead class="bg-brand-50">
                                 <tr>
-                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider w-1/4">Asset Title</th>
-                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider w-1/3">Visual Intent</th>
-                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider">Economic Grievance Leveraged</th>
+                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider w-1/4">Material Title</th>
+                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider w-1/3">Visual Concept</th>
+                                    <th scope="col" class="px-6 py-3 text-left font-bold text-brand-900 uppercase tracking-wider">Local Concern Addressed</th>
                                 </tr>
                             </thead>
                             <tbody class="bg-white divide-y divide-gray-200">
-                                <tr><td class="px-6 py-4 font-bold text-gray-800">"Your Tax Dollars"</td><td class="px-6 py-4 text-gray-600">Visualizes $200B war spending.</td><td class="px-6 py-4 text-gray-600">Misallocation of local tax revenue.</td></tr>
-                                <tr><td class="px-6 py-4 font-bold text-gray-800">The "Receipt" Trade-Off</td><td class="px-6 py-4 text-gray-600">Direct comparison: War vs. Rural Hospitals.</td><td class="px-6 py-4 text-gray-600">Neglect of Western Wisconsin healthcare.</td></tr>
+                                <tr><td class="px-6 py-4 font-bold text-gray-800">"Your Tax Dollars"</td><td class="px-6 py-4 text-gray-600">Visualizes $200B war spending.</td><td class="px-6 py-4 text-gray-600">Prioritizing local tax revenue.</td></tr>
+                                <tr><td class="px-6 py-4 font-bold text-gray-800">The "Receipt" Trade-Off</td><td class="px-6 py-4 text-gray-600">Direct comparison: War vs. Rural Hospitals.</td><td class="px-6 py-4 text-gray-600">Support for Western Wisconsin healthcare.</td></tr>
                                 <tr><td class="px-6 py-4 font-bold text-gray-800">"Before & After" Pump</td><td class="px-6 py-4 text-gray-600">Branded as "The Van Orden Tax."</td><td class="px-6 py-4 text-gray-600">Direct fuel inflation / cost-of-living.</td></tr>
-                                <tr><td class="px-6 py-4 font-bold text-gray-800">"Vet to Vet" Hypocrisy</td><td class="px-6 py-4 text-gray-600">Rhetoric vs. Voting Record.</td><td class="px-6 py-4 text-gray-600">VA care cuts vs. foreign war funding.</td></tr>
+                                <tr><td class="px-6 py-4 font-bold text-gray-800">"Vet to Vet" Checkbox</td><td class="px-6 py-4 text-gray-600">Promises vs. Voting Record.</td><td class="px-6 py-4 text-gray-600">VA care funding vs. foreign war funding.</td></tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <h4 class="font-bold text-gray-800 mb-2 uppercase tracking-wide text-sm"><i class="fas fa-play-circle text-brand-600 mr-2"></i>Audio, Video, and Written "Ammunition"</h4>
+                    <h4 class="font-bold text-gray-800 mb-2 uppercase tracking-wide text-sm"><i class="fas fa-play-circle text-brand-600 mr-2"></i>Audio, Video, and Written Resources</h4>
                     <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
-                        <li><strong>Leaked Audio:</strong> Deploy clipped audio of the incumbent regarding the childcare crisis to underscore domestic neglect.</li>
-                        <li><strong>Video Templates:</strong> Organizers are required to record "Green Screen/Receipt" sample videos for the "Make it Make Sense" challenge.</li>
-                        <li><strong>Written Assets:</strong> Deploy pre-written templates for Facebook boards and LTEs formatted for the <em>La Crosse Tribune</em> and <em>Leader-Telegram</em>.</li>
+                        <li><strong>News Audio:</strong> Share factual news clips regarding the childcare funding debate to highlight domestic needs.</li>
+                        <li><strong>Video Templates:</strong> Organizers can record "Green Screen/Receipt" sample videos to help fellow volunteers participate in the "Make it Make Sense" conversation online.</li>
+                        <li><strong>Written Materials:</strong> Access pre-written templates for Facebook boards and Letters to the Editor (LTEs) tailored for the <em>La Crosse Tribune</em> and <em>Leader-Telegram</em>.</li>
                     </ul>
                 </div>
 
                 <div class="bg-slate-50 p-6 md:p-10 border-b border-gray-200">
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">4</span> Phase 3: Guerilla Distribution</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">4</span> Step 3: Grassroots Sharing</h3>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        Guerilla distribution involves injecting our narrative into non-political digital spaces to reach voters where they live.
+                        Grassroots sharing involves bringing our message into everyday community spaces online, connecting with voters where they are already having conversations.
                     </p>
 
                     <div class="space-y-4">
                         <div class="bg-white p-4 rounded border-l-4 border-blue-500 shadow-sm">
-                            <h4 class="font-bold text-gray-800 mb-1">Action Set A: The Facebook Infiltration</h4>
-                            <p class="text-sm text-gray-600">Focus on "Buy/Sell/Trade" boards. Deploy "Gas Price Vent" and "Childcare Crisis" posts paired with the "Van Orden Tax" graphic. Frame political choices as personal financial burdens.</p>
+                            <h4 class="font-bold text-gray-800 mb-1">Activity A: Community Board Engagement</h4>
+                            <p class="text-sm text-gray-600">Participate in local "Buy/Sell/Trade" boards. Share our "Gas Price" and "Childcare" posts paired with the appropriate graphics to spark conversations about how legislative choices impact our daily budgets.</p>
                         </div>
                         <div class="bg-white p-4 rounded border-l-4 border-purple-500 shadow-sm">
-                            <h4 class="font-bold text-gray-800 mb-1">Action Set B: Short-Form Video Push</h4>
-                            <p class="text-sm text-gray-600">Launch the "Make it Make Sense" challenge on Reels/TikTok. <strong>Algorithm Training:</strong> Volunteers are strictly forbidden from using national hashtags. You must use: <code class="bg-gray-100 text-purple-700 px-1 rounded">#WI03</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#EauClaire</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#LaCrosse</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#WisconsinPolitics</code>.</p>
+                            <h4 class="font-bold text-gray-800 mb-1">Activity B: Short-Form Video Push</h4>
+                            <p class="text-sm text-gray-600">Join the "Make it Make Sense" conversation on Reels/TikTok. <strong>Helping the Algorithm:</strong> We encourage volunteers to use local tags to reach our neighbors: <code class="bg-gray-100 text-purple-700 px-1 rounded">#WI03</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#EauClaire</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#LaCrosse</code> <code class="bg-gray-100 text-purple-700 px-1 rounded">#WisconsinPolitics</code>.</p>
                         </div>
                         <div class="bg-white p-4 rounded border-l-4 border-green-500 shadow-sm">
-                            <h4 class="font-bold text-gray-800 mb-1">Action Set C: LTE Blitz</h4>
-                            <p class="text-sm text-gray-600">Dominate local print media. Goal: A steady drumbeat of 2-3 published pieces per week across the district.</p>
+                            <h4 class="font-bold text-gray-800 mb-1">Activity C: LTE Push</h4>
+                            <p class="text-sm text-gray-600">Engage with local print media. Our goal is a steady, respectful presence of 2-3 published community letters per week across the district.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-6 md:p-10 bg-white">
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">5</span> Phase 4: Tactical Field Escalation</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">5</span> Step 4: Public Engagement</h3>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        Digital momentum must now be converted into physical accountability. We will use the candidate’s own public appearances to generate viral "earned media." Maintain a centralized "Tracker Spreadsheet" for all public appearances.
+                        Online momentum must now be converted into real-world conversations. We will attend public appearances to ask important questions and foster accountability. A shared calendar of local public events will help us coordinate attendance.
                     </p>
 
-                    <div class="bg-yellow-50 border border-yellow-300 rounded p-5 mb-8 relative overflow-hidden">
-                        <i class="fas fa-video absolute -right-4 -bottom-4 text-yellow-200 text-8xl opacity-30"></i>
-                        <h4 class="font-bold text-yellow-800 uppercase tracking-wide mb-3 relative z-10"><i class="fas fa-crosshairs mr-2"></i>Bird-Dogging Protocol</h4>
-                        <p class="text-sm text-yellow-900 mb-3 relative z-10">Deploy specialized Two-Person Teams for every encounter:</p>
-                        <ul class="list-none space-y-2 text-sm text-yellow-900 relative z-10">
-                            <li><strong class="text-black">1. The Interrogator:</strong> Armed with a pointed question. You must use the mandatory script: <em>"Why fund a $200B war while cutting WI-03 VA care?"</em></li>
-                            <li><strong class="text-black">2. The Videographer:</strong> Positioned to capture reaction. Vertical recording on a smartphone is a <strong>requirement</strong> for mobile-first platforms.</li>
+                    <div class="bg-blue-50 border border-blue-300 rounded p-5 mb-8 relative overflow-hidden">
+                        <i class="fas fa-comments absolute -right-4 -bottom-4 text-blue-200 text-8xl opacity-40"></i>
+                        <h4 class="font-bold text-blue-800 uppercase tracking-wide mb-3 relative z-10"><i class="fas fa-microphone mr-2"></i>Public Event Q&A Guide</h4>
+                        <p class="text-sm text-blue-900 mb-3 relative z-10">We encourage volunteers to partner up for public events:</p>
+                        <ul class="list-none space-y-2 text-sm text-blue-900 relative z-10">
+                            <li><strong class="text-black">1. The Speaker:</strong> Focuses on asking a clear, respectful question from our guide, such as: <em>"Why prioritize a $200B war while funding for WI-03 VA care is at risk?"</em></li>
+                            <li><strong class="text-black">2. The Videographer:</strong> Records the exchange so we can share the conversation with the rest of the community. Vertical video works best.</li>
                         </ul>
                     </div>
 
-                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">6</span> Rapid Amplification</h3>
+                    <h3 class="text-2xl font-bold text-navy-800 mb-4 flex items-center font-headline uppercase"><span class="bg-navy-800 text-white w-8 h-8 flex items-center justify-center rounded mr-3 text-lg">6</span> Growing the Message</h3>
                     <p class="text-gray-700 mb-4 leading-relaxed">
-                        In the 24-hour news cycle, field footage is useless unless amplified instantly. This creates a "seamless loop" where physical encounters feed back into digital content.
+                        To ensure our neighbors hear the answers to these important questions, we must share event footage promptly. This creates an ongoing community conversation.
                     </p>
 
                     <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4 mb-6">
                         <div class="flex-1 bg-gray-50 border border-gray-200 p-4 rounded text-center">
-                            <i class="fas fa-cut text-brand-600 text-2xl mb-2"></i>
-                            <h5 class="font-bold text-gray-800">Identify & Edit</h5>
-                            <p class="text-xs text-gray-600 mt-1">Isolate 15s evasive segments. Add clear captions.</p>
+                            <i class="fas fa-edit text-brand-600 text-2xl mb-2"></i>
+                            <h5 class="font-bold text-gray-800">Review & Edit</h5>
+                            <p class="text-xs text-gray-600 mt-1">Highlight key responses. Add clear captions for accessibility.</p>
                         </div>
                         <div class="flex-1 bg-gray-50 border border-gray-200 p-4 rounded text-center">
                             <i class="fab fa-twitter text-brand-600 text-2xl mb-2"></i>
-                            <h5 class="font-bold text-gray-800">Distribute</h5>
-                            <p class="text-xs text-gray-600 mt-1">Tag local journalists on X immediately.</p>
+                            <h5 class="font-bold text-gray-800">Share Locally</h5>
+                            <p class="text-xs text-gray-600 mt-1">Tag local journalists and community leaders online.</p>
                         </div>
                         <div class="flex-1 bg-gray-50 border border-gray-200 p-4 rounded text-center">
                             <i class="fab fa-reddit-alien text-brand-600 text-2xl mb-2"></i>
-                            <h5 class="font-bold text-gray-800">Seed</h5>
-                            <p class="text-xs text-gray-600 mt-1">Post to r/wisconsin and r/lacrossewi.</p>
+                            <h5 class="font-bold text-gray-800">Discuss</h5>
+                            <p class="text-xs text-gray-600 mt-1">Post updates to local forums like r/wisconsin and r/lacrossewi.</p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                 <div class="border-2 border-gray-300 rounded-lg p-2 bg-gray-200 lg:col-span-2">
                     <div class="bg-white p-6 shadow-md mx-auto rounded flex flex-col items-center">
                        <h3 class="font-headline text-2xl font-bold text-gray-800 mb-6 uppercase border-b-4 border-brand-500 pb-2 text-center">Who Does Derrick Van Orden Work For?</h3>
-                       <div class="bg-gray-800 text-white p-3 rounded-lg shadow w-64 text-center z-10 border-2 border-gray-600"><p class="font-bold uppercase tracking-wider text-sm">DC War Hawks & Special Interests</p></div>
+                       <div class="bg-gray-800 text-white p-3 rounded-lg shadow w-64 text-center z-10 border-2 border-gray-600"><p class="font-bold uppercase tracking-wider text-sm">DC Special Interests</p></div>
                        <div class="flex flex-col items-center -my-2 relative z-0">
                            <div class="bg-green-100 text-green-800 border border-green-300 px-3 py-1 rounded-full text-xs font-bold shadow-sm absolute top-1/2 left-1/2 transform -translate-y-1/2 ml-4 w-40 text-center">GETS: $200B Blank Check</div>
                            <div class="w-1 h-10 bg-gray-400"></div><i class="fas fa-chevron-up text-gray-400 -mt-2"></i>
@@ -349,9 +349,9 @@
 
                 <div class="border-2 border-gray-300 rounded-lg p-2 bg-gray-200">
                     <div class="bg-white p-6 shadow-md max-w-sm mx-auto rounded flex flex-col items-center h-full relative">
-                        <i class="fas fa-bomb text-gray-400 text-4xl mb-2"></i>
-                        <h3 class="font-headline text-xl font-bold text-gray-800 uppercase border-b-2 border-red-500 pb-2 mb-4 text-center">Van Orden's<br>Inflation Bomb</h3>
-                        <p class="text-xs text-gray-600 text-center mb-4">Wars drive up oil prices, causing inflation to explode.</p>
+                        <i class="fas fa-chart-line text-gray-400 text-4xl mb-2"></i>
+                        <h3 class="font-headline text-xl font-bold text-gray-800 uppercase border-b-2 border-red-500 pb-2 mb-4 text-center">Van Orden's<br>Inflation Spike</h3>
+                        <p class="text-xs text-gray-600 text-center mb-4">Wars drive up oil prices, causing inflation to rise.</p>
                         <ul class="space-y-3 font-semibold text-gray-800 w-full text-center text-sm">
                             <li class="bg-red-50 border border-red-100 py-2 rounded">HIGHER GAS <span class="text-red-600">$$$</span></li>
                             <li class="bg-red-50 border border-red-100 py-2 rounded">EXPENSIVE GROCERIES <span class="text-red-600">$$$</span></li>
@@ -365,7 +365,7 @@
                         <p class="font-typewriter text-2xl md:text-3xl text-green-400 text-center leading-relaxed max-w-2xl">
                             "Why would we do child care, we’ve got to fund this war."
                         </p>
-                        <p class="text-gray-400 font-mono text-sm mt-6 uppercase tracking-widest border-t border-gray-700 pt-2">The Real GOP Strategy - Caught on Tape</p>
+                        <p class="text-gray-400 font-mono text-sm mt-6 uppercase tracking-widest border-t border-gray-700 pt-2">The Real Strategy - Caught on Tape</p>
                     </div>
                 </div>
 
@@ -389,7 +389,7 @@
                             <p class="text-xs text-blue-600 mt-2 font-bold uppercase">Ignored</p>
                         </div>
                         <div class="w-1/2 bg-red-900 p-4 flex flex-col items-center justify-center">
-                            <i class="fas fa-fighter-jet text-red-400 text-4xl mb-3"></i>
+                            <i class="fas fa-plane text-red-400 text-4xl mb-3"></i>
                             <p class="font-bold text-center text-white leading-tight">Middle East<br>Conflicts</p>
                             <p class="text-xs text-red-300 mt-2 font-bold uppercase">Fully Funded</p>
                         </div>
@@ -405,46 +405,46 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">1. Gas Price Shock</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-1">Just paid a fortune to fill up. 🤦‍♂️ We are getting crushed by costs here, but Congressman Van Orden is voting to send $200 BILLION to the Middle East for a new war. That war drives up oil prices, and we foot the bill. We need a rep who puts our economy first.</div><button onclick="copyToClipboard('copy-social-1')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">1. Gas Price Impact</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-1">Just paid a lot to fill up. 🤦‍♂️ We are feeling the squeeze here, but Congressman Van Orden is supporting $200 BILLION for the Middle East for a new war. That drives up oil prices, and we foot the bill. We need a rep who puts our economy first.</div><button onclick="copyToClipboard('copy-social-1')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">2. The Vet Betrayal</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-2">It’s frustrating watching VA clinics struggle in WI. What’s worse is Rep. Van Orden previously supported cuts to VA care... but suddenly found $200 BILLION for a new war in Iran. Our veterans should come before overseas wars. Period.</div><button onclick="copyToClipboard('copy-social-2')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">2. The Vet Concern</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-2">It’s tough watching VA clinics struggle in WI. What’s worse is Rep. Van Orden previously supported cuts to VA care... but suddenly found $200 BILLION for a new war in Iran. Our veterans should come before overseas wars. Period.</div><button onclick="copyToClipboard('copy-social-2')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">3. Childcare Trap</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-3">Insane daycare waitlists and costs around the Chippewa Valley? 🙋‍♀️ It stung to hear politicians admit they can't fund childcare because they have to pay for the new war—a war Van Orden is backing with our tax dollars. Kids taking a backseat to bombs.</div><button onclick="copyToClipboard('copy-social-3')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">3. Childcare Waitlists</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-3">Daycare waitlists and costs are challenging around the Chippewa Valley. 🙋‍♀️ It stung to hear politicians admit they can't fund childcare because they have to pay for the new war—a war Van Orden supports with our tax dollars. Kids shouldn't take a backseat.</div><button onclick="copyToClipboard('copy-social-3')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">4. Grocery Shock</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-4">Jaw is on the floor looking at this receipt. 🧾 Grocery inflation is killing our budget. Meanwhile, Van Orden is ready to rubber-stamp $200 BILLION for a war that drives global inflation higher. Why fund a forever war when we can barely afford to feed our families?</div><button onclick="copyToClipboard('copy-social-4')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">4. Grocery Bills</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-4">Grocery inflation is straining our budget. Meanwhile, Van Orden is supporting $200 BILLION for a war that drives global inflation higher. Why fund a distant war when we are working so hard to feed our families locally?</div><button onclick="copyToClipboard('copy-social-4')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">5. Main Street</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-5">We hear "America First," but Van Orden's record is "Middle East Wars First." He’s voting to dump $200B into Iran instead of investing in infrastructure or small businesses in the Driftless Area. Draining resources from Main Street to pay for DC's mistakes.</div><button onclick="copyToClipboard('copy-social-5')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">5. Main Street Focus</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-5">We hear "America First," but Van Orden's focus seems to be "Middle East Wars First." He’s voting to send $200B to Iran instead of investing in infrastructure or small businesses in the Driftless Area. Let's keep resources on Main Street.</div><button onclick="copyToClipboard('copy-social-5')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">6. Rubber Stamp</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-6">I voted for change, not a rubber stamp for DC War Hawks. Van Orden promised to stop endless wars. Now he’s backing a $200 billion blank check for a new conflict. Whatever happened to keeping troops home? He broke his biggest promise. 🚫</div><button onclick="copyToClipboard('copy-social-6')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">6. Responsible Spending</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-6">I voted for responsible leadership. Van Orden promised to stop endless spending on wars. Now he’s backing $200 billion for a new conflict. Whatever happened to focusing on the economy at home? He needs to keep his promises. 🚫</div><button onclick="copyToClipboard('copy-social-6')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">7. Inflation Bomb</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-7">Every time inflation ticks up, remember Van Orden. By voting for another massive Middle East war, he’s ensuring global oil prices stay high, driving up inflation at the gas pump and the grocery store for all of us. 💣</div><button onclick="copyToClipboard('copy-social-7')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">7. Inflation Ripple</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-7">Every time prices rise, remember the impact of Van Orden's voting. By supporting another massive Middle East war, he’s contributing to global oil prices staying high, driving up costs at the gas pump and the grocery store for all of us. 📈</div><button onclick="copyToClipboard('copy-social-7')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">8. America First Lie</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-8">If you liked the sound of "America First," Van Orden gave you "Wisconsin Last." He campaigned on stopping foreign conflicts but instantly found $200B to start a new one. We need someone who actually prioritizes our country.</div><button onclick="copyToClipboard('copy-social-8')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">8. Honoring Promises</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-8">If you liked the sound of "America First," Van Orden's record shows "Wisconsin Last." He campaigned on avoiding foreign conflicts but quickly supported $200B for a new one. We need someone who actually prioritizes our local needs.</div><button onclick="copyToClipboard('copy-social-8')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
 
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
                     <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">9. Rural Hospitals</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-9">Rural hospitals are fighting to stay open. But our Congressman is ready to spend $200 billion on missiles and foreign intervention instead of local healthcare. Why are his priorities always overseas instead of saving our local ERs? 🏥</div><button onclick="copyToClipboard('copy-social-9')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-9">Rural hospitals are working hard to stay open. But our Congressman is ready to spend $200 billion on foreign intervention instead of local healthcare. Why are his priorities always overseas instead of supporting our local ERs? 🏥</div><button onclick="copyToClipboard('copy-social-9')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col">
-                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">10. Hot Mic Quote</div>
-                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-10">"Why would we do child care, we’ve got to fund this war." They said the quiet part out loud. Politicians are abandoning working families to fund a $200B conflict in Iran. It’s not an accident; it’s their exact policy. #WisconsinLast</div><button onclick="copyToClipboard('copy-social-10')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
+                    <div class="bg-gray-50 px-4 py-2 border-b font-bold text-gray-700 text-sm">10. Stated Policy</div>
+                    <div class="p-3 flex-1 flex flex-col"><div class="bg-gray-100 p-2 rounded mb-3 font-mono text-xs text-gray-800 h-24 overflow-y-auto" id="copy-social-10">"Why would we do child care, we’ve got to fund this war." We heard it clearly. Politicians are overlooking working families to fund a $200B conflict in Iran. It’s a deliberate choice about priorities. #WisconsinLast</div><button onclick="copyToClipboard('copy-social-10')" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-1 px-2 rounded text-xs">Copy</button></div>
                 </div>
             </div>
         </div>
@@ -454,65 +454,65 @@
             <div class="space-y-4">
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <p class="font-bold text-sm mb-2">A. The Veteran Angle</p>
-                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-1">To the Editor: As a [resident/veteran] of [City], I know the value of a dollar. We were promised Van Orden would prioritize America first. Instead, he supports a $200 billion expenditure for a new war in Iran. This is the same rep who backed cuts to VA healthcare. How can we afford a $200B blank check for the Middle East when we are "broke" for veterans here? We need a rep who fights for WI. - [Name], [City] [Phone]</div>
+                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-1">To the Editor: As a [resident/veteran] of [City], I understand responsible spending. We were promised Van Orden would prioritize America first. Instead, he supports a $200 billion expenditure for a new war in Iran. This is the same rep who backed cuts to VA healthcare. How can we afford $200B for the Middle East when we struggle to fund veterans' care here? We need a rep who advocates for WI. - [Name], [City] [Phone]</div>
                     <button onclick="copyToClipboard('copy-lte-1')" class="text-brand-600 text-xs font-bold"><i class="fas fa-copy"></i> Copy LTE</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <p class="font-bold text-sm mb-2">B. The Inflation Angle</p>
-                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-2">To the Editor: Working families are squeezed. The last thing we need is leaders starting another "forever war" that disrupts the global economy and drives gas prices higher. Yet, Rep. Van Orden is supporting a $200 billion war in Iran. Every dollar spent on missiles is a dollar not spent on keeping hospitals open or lowering costs. His priority is foreign policy, not our survival. - [Name], [City] [Phone]</div>
+                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-2">To the Editor: Working families are feeling the pinch. The last thing we need is leadership backing foreign conflicts that disrupt the economy and drive prices higher. Yet, Rep. Van Orden is supporting a $200 billion war in Iran. Every dollar spent overseas is a dollar not spent on keeping hospitals open or lowering local costs. His priority seems to be foreign policy, not our community's stability. - [Name], [City] [Phone]</div>
                     <button onclick="copyToClipboard('copy-lte-2')" class="text-brand-600 text-xs font-bold"><i class="fas fa-copy"></i> Copy LTE</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <p class="font-bold text-sm mb-2">C. Rural Healthcare</p>
-                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-3">To the Editor: Rural hospitals across our state face financial crises. While Washington claims there is no money to save these lifelines, Van Orden is ready to rubber-stamp $200 billion for a new war in the Middle East. It is terrifying that our rep finds limitless funds for bombs, but leaves our health infrastructure to crumble. We deserve better. - [Name], [City] [Phone]</div>
+                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-3">To the Editor: Rural hospitals across our state face significant financial challenges. While we're told there is limited money to save these lifelines, Van Orden is ready to approve $200 billion for a new war in the Middle East. It is deeply concerning that our rep finds funds for foreign conflicts, but leaves our health infrastructure without adequate support. We deserve better focus. - [Name], [City] [Phone]</div>
                     <button onclick="copyToClipboard('copy-lte-3')" class="text-brand-600 text-xs font-bold"><i class="fas fa-copy"></i> Copy LTE</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <p class="font-bold text-sm mb-2">D. Frustrated Parent</p>
-                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-4">To the Editor: Families face a childcare crisis. It was disheartening to hear leaders suggest they cannot fund childcare because they need money to pay for the war in Iran. Even worse, Van Orden supports this $200 billion boondoggle. When a politician tells you they'd rather spend tax dollars on a Middle Eastern war than helping working parents, believe them. - [Name], [City] [Phone]</div>
+                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-4">To the Editor: Families are dealing with a childcare crisis. It was disheartening to hear leaders suggest they cannot fund childcare because they need money to pay for the war in Iran. Even more concerning, Van Orden supports this $200 billion expenditure. When a politician indicates they'd rather spend tax dollars on a Middle Eastern war than on helping working parents, we need to hold them accountable. - [Name], [City] [Phone]</div>
                     <button onclick="copyToClipboard('copy-lte-4')" class="text-brand-600 text-xs font-bold"><i class="fas fa-copy"></i> Copy LTE</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-                    <p class="font-bold text-sm mb-2">E. The America First Lie</p>
-                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-5">To the Editor: I want our tax dollars spent fixing our roads and lowering costs at home. So why is Van Orden supporting a massive $200 billion spending package for a brand new war? I did not vote to send our wealth to the Middle East. Van Orden campaigned on keeping us out of foreign conflicts, but became just another war hawk putting Wisconsin last. - [Name], [City] [Phone]</div>
+                    <p class="font-bold text-sm mb-2">E. The America First Discussion</p>
+                    <div class="bg-gray-100 p-2 rounded font-mono text-xs whitespace-pre-wrap h-24 overflow-y-auto mb-2" id="copy-lte-5">To the Editor: Many of us want our tax dollars spent fixing our roads and lowering costs at home. So why is Van Orden supporting a massive $200 billion spending package for a brand new war? We did not vote to send our resources to the Middle East. Van Orden campaigned on keeping us out of foreign conflicts, but his voting record places Wisconsin's needs last. - [Name], [City] [Phone]</div>
                     <button onclick="copyToClipboard('copy-lte-5')" class="text-brand-600 text-xs font-bold"><i class="fas fa-copy"></i> Copy LTE</button>
                 </div>
             </div>
         </div>
 
-        <div id="birddog" class="tab-content max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold mb-6 text-gray-800">Field Q&A Scripts (6 Questions)</h2>
-            <div class="bg-red-50 border-l-4 border-red-500 p-3 mb-4 rounded-r-md"><p class="text-red-700 text-xs"><strong>Rules:</strong> Go in pairs. One records vertical video, one asks the question. Be polite, don't yell.</p></div>
+        <div id="eventqa" class="tab-content max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800">Public Event Q&A Guide (6 Questions)</h2>
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-3 mb-4 rounded-r-md"><p class="text-blue-800 text-sm"><strong>Guidance:</strong> Partner up for public events. One person records video, the other asks the question. Be respectful and constructive. Let the response speak for itself.</p></div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-2 text-sm">1. Gas & Living Costs</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-1">"Congressman, gas and groceries are incredibly expensive. How does sending $200 billion to fight a war in Iran help my family afford to live in Wisconsin?"</div>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-1">"Congressman, gas and groceries are increasingly expensive. How does sending $200 billion to support a war in Iran help families afford to live in Wisconsin?"</div>
                     <button onclick="copyToClipboard('copy-script-1')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-                    <h4 class="font-bold text-gray-800 mb-2 text-sm">2. Veteran Hypocrisy</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-2">"As a veteran yourself, how do you justify finding $200 billion to start a new war, while backing cuts to VA healthcare for the veterans living right here?"</div>
+                    <h4 class="font-bold text-gray-800 mb-2 text-sm">2. Veteran Support</h4>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-2">"As a veteran yourself, how do you balance supporting $200 billion for a new war, while backing cuts to VA healthcare for the veterans living right here in your district?"</div>
                     <button onclick="copyToClipboard('copy-script-2')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-2 text-sm">3. Childcare Trade-Off</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-3">"The administration recently said we can't afford childcare funding because we have to pay for the war in Iran. Do you agree? Why are foreign wars more important?"</div>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-3">"The administration recently said we can't afford childcare funding because of the costs of the war in Iran. Do you agree with this choice of priorities?"</div>
                     <button onclick="copyToClipboard('copy-script-3')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-2 text-sm">4. Grocery Inflation</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-4">"My grocery bill skyrocketed, and economists say the conflict makes inflation worse. Why are you voting to spend $200 billion to escalate a war raising food prices?"</div>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-4">"Economists note the conflict is contributing to inflation. Why vote to spend $200 billion to escalate a war that is impacting our food prices?"</div>
                     <button onclick="copyToClipboard('copy-script-4')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-2 text-sm">5. Rural Hospitals</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-5">"Rural hospitals are struggling to keep doors open. Why is Congress able to instantly find $200 billion for bombs overseas, but leaves our local ERs begging for scraps?"</div>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-5">"Rural hospitals are struggling to maintain services. Why is Congress able to find $200 billion for overseas conflicts, but struggles to support our local ERs?"</div>
                     <button onclick="copyToClipboard('copy-script-5')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-2 text-sm">6. "America First"</h4>
-                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-6">"You campaigned on 'America First' and promised to stop endless wars. Since you are now backing a $200 billion war in Iran, do you admit you broke your promise?"</div>
+                    <div class="bg-gray-100 p-3 rounded-md mb-2 font-mono text-sm h-24 overflow-y-auto" id="copy-script-6">"You campaigned on focusing on America's needs and limiting foreign conflicts. Since you are now supporting $200 billion for a war in Iran, do you feel this aligns with your promises?"</div>
                     <button onclick="copyToClipboard('copy-script-6')" class="text-brand-600 text-xs font-bold">Copy</button>
                 </div>
             </div>
@@ -534,19 +534,19 @@
             document.getElementById(tabId).classList.add('active');
 
             document.querySelectorAll('.nav-btn').forEach(btn => {
-                btn.classList.remove('bg-blue-800', 'text-white', 'border-l-4', 'border-red-400');
+                btn.classList.remove('bg-blue-800', 'text-white', 'border-l-4', 'border-blue-400');
                 btn.classList.add('text-gray-300');
             });
 
             const clickedBtn = event.currentTarget;
             clickedBtn.classList.remove('text-gray-300');
-            clickedBtn.classList.add('bg-blue-800', 'text-white', 'border-l-4', 'border-red-400');
+            clickedBtn.classList.add('bg-blue-800', 'text-white', 'border-l-4', 'border-blue-400');
 
             if (window.innerWidth < 768) document.getElementById('sidebar').classList.add('-translate-x-full');
             document.querySelector('main').scrollTo(0,0);
         }
 
-        document.querySelector('.active-nav').classList.add('bg-blue-800', 'text-white', 'border-l-4', 'border-red-400');
+        document.querySelector('.active-nav').classList.add('bg-blue-800', 'text-white', 'border-l-4', 'border-blue-400');
 
         function copyToClipboard(elementId) {
             const textToCopy = document.getElementById(elementId).innerText;
